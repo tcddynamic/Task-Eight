@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>入门任务9</title>
+	<style>
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		body{
+			background-color: purple;
+		}
+		.title{
+			width: 600px;
+			height: 100px;
+			line-height: 100px;
+			margin: 80px auto;
+			text-align: center;
+			font-size: 30px;
+			font-weight: bold;
+			color: purple;
+			background-color: white;
+			border-radius: 5px;
+			box-shadow: 5px 2px 15px 3px #ccc;
+
+			border: 1px solid white;
+			
+		}
+
+		.title:hover{
+			box-shadow: none;
+		}
+
+		.box{
+			box-sizing: border-box;
+			display: inline-block;
+			width: 160px;
+			height: 80px;
+			line-height: 80px;
+			/*border: 1px solid white;*/
+			margin: 0 auto;
+			margin-top: 200px;
+			/*text-align: center;*/
+			/*border-radius: 50%;*/
+			font-size: 16px;
+			text-align: center;
+
+			/*border: 1px solid white;*/
+		}
+		.disp{
+			box-sizing: border-box;
+			width: 495px;
+			height: 600px;
+			margin: 0 auto;
+			/*font-size: 0px;*/
+			/*border: 1px solid white;*/
+		}
+		.box.sprite{
+			border-radius: 10%;
+			background-color: #28e1e8;
+			box-shadow: 5px 2px 15px 3px #ccc;
+		}
+		.box>a{
+			text-decoration: none;
+		}
+		.box>a:link{
+			color: white;
+		}
+		.box>a:visited{
+			color: white;
+		}
+		.box>a:hover{
+			color: orange;
+		}
+		.box>a:active{
+			color: black;
+		}
+		
+		.box.blank{
+			/*width: 100px;*/
+			/*height: 500px;*/
+			/*margin: 0 auto;*/
+			/*border: 1px solid white;
+			background-color: white;*/
+		}
+		.box.iconfont{
+			border-radius: 10%;
+			background-color: #c028e8;
+			box-shadow: 5px 2px 15px 3px #ccc;
+		}
+		.box:hover{
+			box-shadow: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="title">
+		入门任务9--CSS(2)
+	</div>
+	<div class="disp">
+		<div class="box sprite">
+			<a href="./code/css-spriteTest.html">CSS Sprite</a>
+		</div>
+		<div class="box blank">
+			
+		</div>
+		<div class="box iconfont">
+			<a href="./code/iconfontTest.html">Iconfont</a>
+		</div>
+	</div>
+
+</body>
+</html>
